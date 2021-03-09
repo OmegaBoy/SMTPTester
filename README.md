@@ -2,7 +2,7 @@
 SMTP Server Mail Tester
 
 Super simple SMTP mail tester. 
-Sends a simple mail for testing mail credentials and connectivity in servers.
+Sends a simple E-Mail for testing credentials and connectivity in servers.
 
 Execute with or without parameters.
 
