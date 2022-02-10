@@ -34,6 +34,7 @@ namespace SMTPTester
             var ServerName = args.Length < 9 ? "" : args[4];
             Console.WriteLine("SMTP server:" + ServerName);
             if (string.IsNullOrWhiteSpace(ServerName)) ServerName = Console.ReadLine();
+
             var Port = args.Length < 9 ? "" : args[5];
             Console.WriteLine("Port:" + Port);
             if (string.IsNullOrWhiteSpace(Port)) Port = Console.ReadLine();
@@ -42,6 +43,7 @@ namespace SMTPTester
             var UserName = args.Length < 9 ? "" : args[6];
             Console.WriteLine("Username:" + UserName);
             if (string.IsNullOrWhiteSpace(UserName)) UserName = Console.ReadLine();
+
             var Password = args.Length < 9 ? "" : args[7];
             Console.WriteLine("Password:" + Password);
             if (string.IsNullOrWhiteSpace(Password)) Password = Console.ReadLine();
